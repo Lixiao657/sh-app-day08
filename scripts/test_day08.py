@@ -18,7 +18,7 @@ class Test_001:
 
         assert True
 
-    def test_add_png(self):
-        with open("C:\\Users\\飞\\Desktop\\APP\\app_5.22\\scripts\\asd.png", "rb") as f:
-
-            allure.attach("截图", f.read(), allure.attach_type.PNG)
+    # def test_add_png(self):
+    #     with open("C:\\Users\\飞\\Desktop\\APP\\app_5.22\\scripts\\asd.png", "rb") as f:
+    #
+    #         allure.attach("截图", f.read(), allure.attach_type.PNG)
